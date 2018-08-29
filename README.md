@@ -1,21 +1,32 @@
 # badrueshop
-Badru eShop is an E Commerce platform for medical supplies and equipment with Payment options.
+Project Title: Badru eshop
 
+Badru eShop is an E Commerce platform for medical supplies and equipment with Payment options.
 NB: Please open the screenshoots folder so that you view the images with description on them 
 (https://github.com/AlBadruSsenoga/badrueshop/tree/master/screenshots).
 
 https://github.com/AlBadruSsenoga/badrueshop/blob/master/screenshots/1.homepage.PNG 
 
+Getting Started 
+
 The application is developed on CodeIgniter framework and completely follows
 MVC. The details of this framework can be found in http://www.codeigniter.com/
+
+Prerequisites
+>>You may use WAMP Server with PHP version 5.6 and above.
+You need a credit card that you will be used to register for online payments(PayPal or Stripe).
+
+Installing
+First create a new database name via PHP Admin that will be required during installation process of the project.
+Move the Project code to the www directory so that you access it on local host.
+
+How the System Works?
 
 ADMIN:
 Admin Dashboard:
 The URL for the admin shall be : http://localhost/badrueshop/index.php/admin 
 
-NOTE: >>You may use WAMP Server with PHP version 5.6 and above.
-First create a new database name via PHP Admin that will be required during installation process of the project.
-Move the Project code to the www directory so that you access it on local host.
+
 
 Top of the dashboard admin can monitor the last 24 hours statistics of stock, sale & destroy.
 
@@ -54,6 +65,18 @@ http://localhost/badrueshop/index.php/vendor
 
 >>In the vendor panel, he’ll get a product panel. 
 He can upload products here should be able login and update stock but can't buy.  Panel).
+
+Built With
+CodeIgniter , The web framework used (http://www.codeigniter.com/)
+MySQL Database
+Dreamweaver 
+
+Authors
+
+Ssenoga Badru (https://github.com/AlBadruSsenoga)
+
+Acknowledgments
+-The Medical Concierge Group (https://www.tmcg.co.ug/)
 
 For inquiries,
 Contact Badru Ssenoga,
